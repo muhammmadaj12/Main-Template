@@ -1,0 +1,40 @@
+#faq-section{padding: 67px 0 50px 0;min-height: 971px;}#faq-section .accordion-item {margin-bottom: 15px;border-radius: 9px;background-color: #FFF;box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;}#faq-section .accordion button{font-size: 20px;line-height: 1em;font-weight: 700;color: #333;border-radius: 10px;}.my-nav.scrolled{background-color: #000;}#faq-section .accordion button:hover{color: #328cc1;transition: color 0.5s ease;}#faq-section .accordion button.collapesed{font-size: 20px;line-height: 30px;color: #1a0a1e;font-weight: 700;padding-right: 45px;position: relative;transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);display: flex;justify-content: space-between;}#faq-section .accordion-button::after{ content: none !important;}#faq-section .accordion button .faq-button{position: absolute;right: 20px;height: 32px;width: 32px;color: #328cc1;border: 1px solid #e5e5e5;text-align: center;display: flex;align-items: center;justify-content: center;border-radius: 50%;transform: rotate(90deg);transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);}#faq-section .accordion .accordion-header:hover .faq-button .fas, #faq-section .accordion button:not(.collapsed) .faq-button .fas{transform: rotate(180deg);transition: transform 1s;}.accordion-button:focus{box-shadow: none;} #faq-section .accordion-header{padding: 10px 0; transition: all 1s ease;}#faq-section .accordion button span.accordian-heading {width: 93%;}#faq-section .accordion .accordion-header .faq-button .fas, #faq-section .accordion button:not(.collapsed) .faq-button .fas {transition: transform 1s;}.social-links .fab{margin:10px;}
+#faq-section .accordion-button:not(.collapsed){
+background-color: transparent;
+    box-shadow: none;
+}
+#faq-section div.accordion-body a{
+    text-decoration: none;
+    /* color: #0C134F; */
+}
+#faq-section div.accordion-body a:hover{
+    text-decoration: underline;
+    /* color: #a5abdf52; */
+    color: #FFF;
+}
+#faq-section div.accordion-body {
+    background-color: #0C134F;
+    color: #FFF;
+    border-radius: 0 0 10px 10px;
+}
+#faq-section .accordion-header button{
+    background-color: transparent;
+}
+#faq-section .accordion-header:hover
+{
+    background-color: #0C134F;
+    color: #FFF;
+    border-radius: 10px;
+    transition: all 1s ease;
+}
+#faq-section .accordion-header:hover button
+{
+    /* background-color: #0C134F; */
+    color: #FFF;
+    border-radius: 10px;
+    transition: all 1s ease;
+}
+#faq-section .accordion-header:hover button .faq-button i{
+    color: #FFF;
+    transition: all 1s ease;
+}
